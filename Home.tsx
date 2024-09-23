@@ -33,10 +33,6 @@ function Home({navigation}: any) {
   );
 }
 
-const ProfileScreen = ({navigation, route}: any) => {
-  return <Text>This is {route.params.name}'s profile</Text>;
-};
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -60,4 +56,3 @@ const styles = StyleSheet.create({
 });
 
 export default Home;
-ProfileScreen;
